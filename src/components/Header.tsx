@@ -36,15 +36,13 @@ const dispatch = useDispatch()
 
 
 useEffect(() => {
-let amt =0 ;
-productData.map((item:Products) => {
-amt+=item.price * item.quantity
-return
-})
-setTotalAmt(amt)
-},[productData])
+  let amt = 0;
+  productData.forEach((item: Products) => {
+    amt += Number(item.price) * Number(item.quantity);
+  });
+  setTotalAmt(amt);
+}, [productData])
 
-// })
   return (
     <div className="bg-bodyColor h-20 top-0 sticky z-50">
       <Container className="h-full flex items-center md:gap-x-5 justify-between md:justify-start">

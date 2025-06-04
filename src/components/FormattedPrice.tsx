@@ -1,9 +1,9 @@
 interface Amount {
-   amount: string | number;
+   amount: number; 
 }
 
 const FormattedPrice = ({amount} :Amount ) => {
-    const FormattedAmount = new Number (amount).toLocaleString("en-US",{
+    const FormattedAmount = Number (amount).toLocaleString("en-US",{
         style:"currency",
         currency:"USD",
         maximumFractionDigits:2,

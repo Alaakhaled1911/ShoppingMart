@@ -52,12 +52,12 @@ const ProductsData = ({ item }: ItemProps) => {
           <div className="flex justify-between items-center">
             <div className="border-[1px] border-orange-600 pt-3 px-3 h-8 rounded-full text-xs flex justify-center items-center">
               <p className="text-center">
-                {calculatePercentage(item?.price, item?.oldPrice)}% off
+                {calculatePercentage(Number(item?.price), Number(item?.oldPrice))}% off
               </p>
             </div>
             <div className="flex items-center gap-x-2">
               <p className="text-slate-500 line-through text-sm">
-                <FormattedPrice amount={item?.oldPrice} />
+                <FormattedPrice amount={Number(item?.oldPrice)} />
               </p>
               <p className="font-semibold">
                 <FormattedPrice amount={item?.price} />
