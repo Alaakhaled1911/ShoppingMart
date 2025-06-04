@@ -3,7 +3,7 @@ import { Products } from "../../type";
 
 interface StoreState {
   productData: Products[];
-  userInfo: null | string;
+  userInfo: null | { name: string; email: string; image: string };
   orderData: any[];
 }
 
@@ -50,7 +50,7 @@ export const shoppingSlice = createSlice({
     resetCart: (state) => {
       state.productData = [];
     },
-    addUser: (state, action: PayloadAction<string>) => {
+    addUser: (state, action: PayloadAction<{ name: string; email: string; image: string }>) => {
       state.userInfo = action.payload;
     },
     deleteUser: (state) => {

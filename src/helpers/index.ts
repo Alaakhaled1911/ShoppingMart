@@ -25,7 +25,8 @@ export const calculatePercentage = (oldPrice: number, price: number) => {
     : 0;
 };
 
-export const getSingleProduct = (_id: number) => {
+export const getSingleProduct = async (_id: number) => {
+  if (!_id) return null;
   const item = productData.find((product) => product._id === _id);
-  return item;
+  return item || null;
 };

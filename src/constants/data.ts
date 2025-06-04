@@ -3,7 +3,7 @@ export const productData = [
       _id: 1,
       title: "Long sleeve Jacket",
       isNew: true,
-      oldPrice: "200",
+      oldPrice: 200,
       price: 150,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -17,7 +17,7 @@ export const productData = [
       _id: 2,
       title: "Jacket with wollen hat",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 65,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -31,7 +31,7 @@ export const productData = [
       _id: 3,
       title: "Compact fashion t-shirt",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 55.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -45,7 +45,7 @@ export const productData = [
       _id: 4,
       title: "Blue jins",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 50,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -59,7 +59,7 @@ export const productData = [
       _id: 5,
       title: "Skirts with full setup",
       isNew: true,
-      oldPrice: "800",
+      oldPrice: 800,
       price: 695,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -73,7 +73,7 @@ export const productData = [
       _id: 6,
       title: "Yellow Hoody",
       isNew: false,
-      oldPrice: "200",
+      oldPrice: 200,
       price: 180,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -87,7 +87,7 @@ export const productData = [
       _id: 7,
       title: "Black t-shirt for women",
       isNew: false,
-      oldPrice: "60",
+      oldPrice: 60,
       price: 20,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -101,7 +101,7 @@ export const productData = [
       _id: 8,
       title: "Gouwn with Red velvet",
       isNew: false,
-      oldPrice: "500",
+      oldPrice: 500,
       price: 350,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -115,7 +115,7 @@ export const productData = [
       _id: 9,
       title: "Pink beauty",
       isNew: false,
-      oldPrice: "150",
+      oldPrice: 150,
       price: 100,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -129,7 +129,7 @@ export const productData = [
       _id: 10,
       title: "Jean's stylish Jacket",
       isNew: false,
-      oldPrice: "250",
+      oldPrice: 250,
       price: 245,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -143,7 +143,7 @@ export const productData = [
       _id: 11,
       title: "Round neck t-shirt",
       isNew: false,
-      oldPrice: "1000",
+      oldPrice: 1000,
       price: 800,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -157,7 +157,7 @@ export const productData = [
       _id: 12,
       title: "Black Jacket",
       isNew: false,
-      oldPrice: "200",
+      oldPrice: 200,
       price: 140,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -171,7 +171,7 @@ export const productData = [
       _id: 13,
       title: "Black top with jeans",
       isNew: false,
-      oldPrice: "130",
+      oldPrice: 130,
       price: 120,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -185,7 +185,7 @@ export const productData = [
       _id: 14,
       title: "Kids choice",
       isNew: false,
-      oldPrice: "80",
+      oldPrice: 80,
       price: 50,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -199,7 +199,7 @@ export const productData = [
       _id: 15,
       title: "Stylish jeans in lightblue",
       isNew: false,
-      oldPrice: "120",
+      oldPrice: 120,
       price: 100,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -213,7 +213,7 @@ export const productData = [
       _id: 16,
       title: "Unknown horizon",
       isNew: false,
-      oldPrice: "400",
+      oldPrice: 400,
       price: 350,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -227,7 +227,7 @@ export const productData = [
       _id: 17,
       title: "Light tops",
       isNew: false,
-      oldPrice: "140",
+      oldPrice: 140,
       price: 120,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -241,7 +241,7 @@ export const productData = [
       _id: 18,
       title: "Khakhi jeans",
       isNew: false,
-      oldPrice: "250",
+      oldPrice: 250,
       price: 190,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -255,7 +255,7 @@ export const productData = [
       _id: 19,
       title: "Black full sleeve",
       isNew: false,
-      oldPrice: "180",
+      oldPrice: 180,
       price: 170,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -269,7 +269,7 @@ export const productData = [
       _id: 20,
       title: "Formal for Men",
       isNew: false,
-      oldPrice: "500",
+      oldPrice: 500,
       price: 490,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -285,7 +285,7 @@ export const productData = [
       _id: 1,
       title: "Long sleeve Jacket",
       isNew: true,
-      oldPrice: "200",
+      oldPrice: 200,
       price: 150,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -299,7 +299,7 @@ export const productData = [
       _id: 2,
       title: "Jacket with wollen hat",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 65,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -313,7 +313,7 @@ export const productData = [
       _id: 3,
       title: "Compact fashion t-shirt",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 55.99,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
@@ -327,7 +327,7 @@ export const productData = [
       _id: 4,
       title: "Blue jins",
       isNew: true,
-      oldPrice: "70",
+      oldPrice: 70,
       price: 50,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
