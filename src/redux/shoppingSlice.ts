@@ -27,22 +27,22 @@ export const shoppingSlice = createSlice({
         state.productData.push({ ...action.payload });
       }
     },
-    increaseQuantity: (state, action: PayloadAction<{ _id: string }>) => {
+    increaseQuantity: (state, action: PayloadAction<{ _id: number }>) => {
       const existingProduct = state.productData.find(
         (item) => item._id === action.payload._id
       );
       if (existingProduct) existingProduct.quantity++;
     },
-    decreaseQuantity: (state, action: PayloadAction<{ _id: string }>) => {
+    decreaseQuantity: (state, action: PayloadAction<{ _id: number }>) => {
       const existingProduct = state.productData.find(
         (item) => item._id === action.payload._id
       );
       if (existingProduct && existingProduct.quantity > 1) {
         existingProduct.quantity--;
       }
-      // إذا الكمية 1 لا تقلل أكثر (منطقيًا)
+     
     },
-    deleteProduct: (state, action: PayloadAction<string>) => {
+    deleteProduct: (state, action: PayloadAction<number>) => {
       state.productData = state.productData.filter(
         (item) => item._id !== action.payload
       );
