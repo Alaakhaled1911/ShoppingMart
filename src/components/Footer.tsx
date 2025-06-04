@@ -26,32 +26,33 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-x-4">
             <a href="" target="_blank">
-              <span className="socialLink"className="socialLink text-white ">
+              <span className="socialLink text-white">
                 <BsYoutube />
               </span>
             </a>
             <a href="" target="_blank">
-              <span className="socialLink"className="socialLink text-white ">
+              <span className="socialLink text-white">
                 <BsGithub />
               </span>
             </a>
             <a href="" target="_blank">
-              <span className="socialLink text-white ">
+              <span className="socialLink text-white">
                 <BsLinkedin />
               </span>
             </a>
             <a href="" target="_blank">
-              <span className="socialLink" className="socialLink text-white ">
+              <span className="socialLink text-white">
                 <BsFacebook />
               </span>
             </a>
             <a href="" target="_blank">
-              <span className="socialLink" className="socialLink text-white ">
+              <span className="socialLink text-white">
                 <BsReddit />
               </span>
             </a>
           </div>
         </div>
+
         <div>
           <p className="text-lg">Laset posts</p>
           <ul className="text-sm font-light mt-2 flex flex-col gap-y-2">
@@ -81,24 +82,25 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
         <div>
           <p className="text-lg">Links</p>
           <ul className="text-base font-medium mt-2 flex flex-col gap-y-2">
-            <Link href={"/"} className="text-white no-underline">
-              <li className="hover:text-orange-500 cursor-pointer duration-200">
+            <li className="hover:text-orange-500 cursor-pointer duration-200">
+              <Link href={"/"} className="text-white no-underline">
                 Home
-              </li>
-            </Link>
-            <Link href={"/cart"} className="text-white no-underline">
-              <li className="hover:text-orange-500 cursor-pointer duration-200">
+              </Link>
+            </li>
+            <li className="hover:text-orange-500 cursor-pointer duration-200">
+              <Link href={"/cart"} className="text-white no-underline">
                 Cart
-              </li>
-            </Link>
-            <Link href={"/about"} className="text-white no-underline">
-              <li className="hover:text-orange-500 cursor-pointer duration-200">
+              </Link>
+            </li>
+            <li className="hover:text-orange-500 cursor-pointer duration-200">
+              <Link href={"/about"} className="text-white no-underline">
                 About
-              </li>
-            </Link>
+              </Link>
+            </li>
             <li className="hover:text-orange-500 cursor-pointer duration-200">
               Newsletter
             </li>
@@ -107,6 +109,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
         <div>
           <p className="text-lg mb-2">Pay us with your trusted services</p>
           <Image
