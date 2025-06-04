@@ -1,0 +1,42 @@
+.MainHome {
+    background: linear-gradient(to bottom, #bfd8f6 0%, #d5e4e3 100%);
+    position: relative;
+    min-height: 110vh;
+}
+.wave {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.MainHomecontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.MainHomecontainer .img { 
+    display: flex;
+}
+.MainHomecontainer img {  
+    width: 300px; 
+margin-top: 44px;}
+.MainHomecontainer .img1 { 
+ 
+    border-bottom-left-radius: 99px;
+    border-top-right-radius:120px;
+    
+}
+   
+   
+
+.MainHomecontainer .img2 { 
+    border-bottom-right-radius:99px;
+    border-top-left-radius: 120px;
+    margin-left: 70px;
+
+}
+.MainHome .MainHomeh1{
+    color: #000080;
+    font-family: math;
+}
