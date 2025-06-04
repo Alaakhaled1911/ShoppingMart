@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import bannerone from '@/images/bannerone.jpg'
 import bannertwo from '@/images/bannertwo.jpg'

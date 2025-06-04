@@ -3,14 +3,14 @@ import React, { useEffect, useState } from "react";
 import Container from "./Container";
 import Logo from "./Logo";
 import { IoMdCart } from "react-icons/io";
-import { FiSearch, FiLogOut } from "react-icons/fi";
+import {  FiLogOut } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
 import { useSession, signIn, signOut } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
-import { BsBookmarks } from "react-icons/bs";
+
 import { useDispatch, useSelector } from "react-redux";
-import { StateProps } from "../../type";
+import { Products, StateProps } from "../../type";
 import FormattedPrice from "./FormattedPrice";
 import { addUser, deleteUser } from "@/redux/shoppingSlice";
 
@@ -27,7 +27,7 @@ const dispatch = useDispatch()
           name: session?.user?.name,
           email: session?.user?.email,
           image: session?.user?.image,
-        })
+        } as any) // <-- cast to any to fix type error
       );
     } else {
       dispatch(deleteUser());
