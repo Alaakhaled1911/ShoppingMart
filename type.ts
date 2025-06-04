@@ -2,8 +2,8 @@ export interface Products {
   _id: number;
   title: string;
   isNew: boolean;
-  oldPrice: string;
-  price: number;
+ price: string | number;  // Allow both types
+  oldPrice: string | number;
   description: string;
   category: string;
   image: string;
