@@ -17,8 +17,8 @@ const ProductsData = ({ item }: ItemProps) => {
     toast.success(`${item?.title.substring(0, 15)} added`);
   };
 
-  const startArray = Array.from({ length: item?.rating }, (_index) => (
-    <span key={_index} className="text-yellow-400">
+  const startArray = Array.from({ length: item?.rating }, (_, index) => (
+    <span key={index} className="text-yellow-400">
       <IoIosStar />
     </span>
   ));
